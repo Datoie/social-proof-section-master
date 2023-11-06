@@ -135,11 +135,22 @@ article p{
         padding: 19px;
         text-align: center;
     }
+    article{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    article h1{
+        max-width: none;
+    }
     .bottom-section{
         display: inline;
         text-align: left;
     }
-
+    .bottom-contiaer p {
+        max-width: none;
+    }
     .bottom-row-contiaer{
         display: flex;
         margin-right: 0;
